@@ -18,8 +18,8 @@ const Hero: React.FC = () => {
   }, [images.length]);
 
   return (
-    <div
-      className="relative h-screen w-full overflow-hidden"
+    <section
+      className="relative h-[70vh] w-full overflow-hidden"
       style={{
         backgroundImage: `url(${images[currentImage]})`,
         backgroundSize: "cover",
@@ -28,21 +28,21 @@ const Hero: React.FC = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-75"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-bold">
+        <h1 className="text-2xl md:text-6xl uppercase">
           Highly Efficient Heating <br /> and Cooling Solutions
         </h1>
-        <p className="mt-4 text-lg md:text-2xl">
+        <p className="mt-4 text-base md:text-lg font-bold">
           Residential and Commercial HVAC Products
         </p>
-        <button className="mt-6 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded transition">
+        <button className="mt-6 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded uppercase transition">
           Our Products
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

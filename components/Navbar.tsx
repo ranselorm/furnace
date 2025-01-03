@@ -10,9 +10,9 @@ interface NavLink {
 const Navbar: React.FC = () => {
   const navLinks: NavLink[] = [
     { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Products", href: "/products" },
     { label: "Services", href: "/services" },
-    { label: "About", href: "/about" },
   ];
 
   return (
@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       {/* Main Navbar */}
-      <div className="bg-red-300 shadow-md py-3">
+      <div className="shadow-md py-4">
         <main className="container mx-auto px-4 md:px-20 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
@@ -43,7 +43,9 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex space-x-6">
             {navLinks.map((link) => (
               <Link key={link.label} href={link.href}>
-                <p className="hover:text-orange-400 transition">{link.label}</p>
+                <p className="hover:text-orange-400 transition text-base font-medium uppercase">
+                  {link.label}
+                </p>
               </Link>
             ))}
           </div>
