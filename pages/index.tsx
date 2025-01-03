@@ -6,6 +6,7 @@ import ServicesSection from "@/components/Services";
 import ParallaxProject from "@/components/ParallaxProjects";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import WhereToBuy from "@/components/WhereToBuy";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <ParallaxProject />
       <FeaturedProducts />
       <WhyChooseUs />
+      <WhereToBuy />
     </>
   );
 }
