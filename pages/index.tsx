@@ -4,6 +4,8 @@ import RssFeed from "@/components/Rss";
 import Hero from "@/components/Hero";
 import ServicesSection from "@/components/Services";
 import ParallaxProject from "@/components/ParallaxProjects";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />;
       <ServicesSection />
       <ParallaxProject />
+      <FeaturedProducts />
+      <WhyChooseUs />
     </>
   );
 }
