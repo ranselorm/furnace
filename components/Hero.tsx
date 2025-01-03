@@ -32,13 +32,13 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-        <h1 className="text-2xl md:text-6xl uppercase">
+        <h1 className="text-2xl md:text-5xl uppercase tracking-[4px]">
           Highly Efficient Heating <br /> and Cooling Solutions
         </h1>
         <p className="mt-4 text-base md:text-lg font-bold">
-          Residential and Commercial HVAC Products
+          Residential and Commercial Products
         </p>
-        <button className="mt-6 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded uppercase transition">
+        <button className="mt-6 bg-secondary text-white font-bold py-3 px-8 rounded uppercase transition">
           Our Products
         </button>
       </div>
