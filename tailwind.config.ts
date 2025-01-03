@@ -9,7 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        dark: "#231f20",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
