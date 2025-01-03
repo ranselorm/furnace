@@ -39,7 +39,7 @@ const ParallaxProject: React.FC = () => {
       <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="relative z-10 flex flex-col items-center py-20 h-full text-center px-4 md:px-20 container mx-auto">
-        <h1 className="text-2xl md:text-5xl">Our Projects</h1>
+        <h1 className="text-2xl md:text-5xl uppercase">Our Projects</h1>
         <p className="mt-2 text-base md:text-lg max-w-2xl text-gray-200 font-bold">
           Innovative Cesar furnace product applications
         </p>

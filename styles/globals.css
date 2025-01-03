@@ -10,3 +10,10 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+.section-title {
+  @apply text-2xl md:text-5xl text-dark uppercase;
+}
+.section-subtitle {
+  @apply mt-4 text-sub font-bold text-lg;
+}

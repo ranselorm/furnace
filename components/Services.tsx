@@ -34,11 +34,11 @@ const ServicesSection: React.FC = () => {
       <div className="container mx-auto px-4 md:px-20 text-center">
         {/* Header */}
         <div className="">
-          <h2 className="text-2xl md:text-5xl text-dark">
+          <h2 className="section-title">
             FIND THE RIGHT HVAC <br className="hidden md:flex" />
             SOLUTION
           </h2>
-          <p className="mt-4 text-sub font-bold text-lg">
+          <p className="section-subtitle">
             Experience Innovation And Efficiency
           </p>
         </div>
