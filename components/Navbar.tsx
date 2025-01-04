@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex space-x-6">
             {navLinks.map((link) => (
               <Link key={link.label} href={link.href}>
-                <p className="hover:text-secondary transition text-base font-medium uppercase">
+                <p className="hover:text-secondary transition text-base uppercase">
                   {link.label}
                 </p>
               </Link>
