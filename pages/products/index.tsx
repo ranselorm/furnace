@@ -41,7 +41,7 @@ const Products = () => {
     <section className="">
       <ProductHero
         title="Our Products"
-        subtitle="This is our subtitle"
+        subtitle="Discover Innovative Solutions Tailored for Comfort and Efficiency."
         backgroundImage="/images/bg.jpg"
       />
       <div className="container mx-auto px-4 md:px-20">

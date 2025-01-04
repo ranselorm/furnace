@@ -28,7 +28,7 @@ const ProductHero: React.FC<ProductsHeroProps> = ({
         <h1 className="text-white text-4xl md:text-6xl font-bold uppercase tracking-wide">
           {title}
         </h1>
-        <p className="text-white text-lg md:text-xl mt-4 max-w-2xl">
+        <p className="text-white text-base md:text-lg mt-4 max-w-xl">
           {subtitle}
         </p>
       </div>
