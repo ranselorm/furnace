@@ -3,6 +3,7 @@ import ProductCard from "@/components/ProductCard";
 import ProductHero from "@/components/ProductHero";
 import FeaturedProductCard from "@/components/FeaturedProductCard";
 import GetSupport from "@/components/GetSupport";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const products = [
   {
@@ -55,6 +56,7 @@ const Products = () => {
           ))}
         </div>
       </div>
+      <WhyChooseUs />
       <GetSupport />
     </section>
   );
