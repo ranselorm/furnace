@@ -13,7 +13,7 @@ interface FeaturedProductCardProps {
   image: string;
   title: string;
   description: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
@@ -24,7 +24,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
   return (
     <div className="max-w-xs bg-white shadow-md rounded-lg flex flex-col justify-between">
       {/* Image Section */}
-      <div className="relative h-64 bg-gray-300 flex items-center justify-center">
+      <div className="relative h-40 bg-gray-300 flex items-center justify-center">
         <img
           src={image}
           alt={title}
@@ -33,11 +33,11 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
       </div>
 
       {/* Content Section */}
-      <div className="p-6 flex flex-col items-center justify-between flex-1">
-        <h3 className="text-lg text-center">{title}</h3>
+      <div className="p-6 flex flex-col items-center justify-between flex-1 pt-20">
         <Dialog>
+          <h3 className="text-base text-center">{title}</h3>
           <DialogTrigger asChild>
-            <button className="mt-4 text-secondary self-center font-bold uppercase">
+            <button className="mt-4 text-secondary self-center font-bold uppercase text-sm">
               See Details
             </button>
           </DialogTrigger>

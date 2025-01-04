@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
         <main className="container mx-auto px-4 md:px-20 flex justify-between items-center bg-white">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="font-bold text-lg">WILLIAMS</div>
+            <div className="font-bold text-lg">Cesar Furnace</div>
           </div>
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-6">
