@@ -34,6 +34,34 @@ const products = [
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
+  {
+    image: "/images/product1.png",
+    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+
+    description:
+      "A compact, reliable gas wall heater for small to medium-sized spaces.",
+  },
+  {
+    image: "/images/product1.png",
+    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+
+    description:
+      "A compact, reliable gas wall heater for small to medium-sized spaces.",
+  },
+  {
+    image: "/images/product1.png",
+    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+
+    description:
+      "A compact, reliable gas wall heater for small to medium-sized spaces.",
+  },
+  {
+    image: "/images/product1.png",
+    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+
+    description:
+      "A compact, reliable gas wall heater for small to medium-sized spaces.",
+  },
 ];
 
 const Products = () => {
@@ -42,10 +70,10 @@ const Products = () => {
       <ProductHero
         title="Our Products"
         subtitle="Discover Innovative Solutions Tailored for Comfort and Efficiency."
-        backgroundImage="/images/bg.jpg"
+        backgroundImage="/images/banner3.png"
       />
       <div className="container mx-auto px-4 md:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-center gap-6 py-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-6 py-16">
           {products.map((product, index) => (
             <FeaturedProductCard
               key={index}

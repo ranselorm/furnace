@@ -1,3 +1,4 @@
+import GetSupport from "@/components/GetSupport";
 import ProductHero from "@/components/ProductHero";
 import TheCesarWay from "@/components/TheCesarWay";
 import WhoIsCesar from "@/components/WhoIsCesar";
@@ -13,6 +14,7 @@ const About = () => {
       />
       <WhoIsCesar />
       <TheCesarWay />
+      <GetSupport />
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import ProductHero from "./ProductHero";
 
 const WhoIsCesar: React.FC = () => {
   return (
@@ -14,23 +13,23 @@ const WhoIsCesar: React.FC = () => {
         {/* Description */}
         <div className="mt-8 space-y-6 text-gray-600">
           <p>
-            For over 100 years, Williams has delivered industry-leading heating
-            and cooling solutions for homes and businesses. It all started in
-            1916, when Jesse Williams started building gas steam radiators in
-            Los Angeles under Williams Radiator Company.
+            For over 100 years, Cesar Furnace has delivered industry-leading
+            heating and cooling solutions for homes and businesses. It all
+            started in 1916, when Cesar Furnace started building gas steam
+            radiators in Los Angeles under Cesar Furnace Radiator Company.
           </p>
           <p>
-            Williams’ commitment to quality was clear from the start—and the
-            company’s product line expanded over the years to include gas-fired
-            heating, gravity wall heating, and counterflow furnaces. By 1954,
-            Williams had become a nationwide leader in HVAC solutions, with a
-            distribution and sales network that stretched across the United
-            States.
+            Cesar Furnace’ commitment to quality was clear from the start—and
+            the company’s product line expanded over the years to include
+            gas-fired heating, gravity wall heating, and counterflow furnaces.
+            By 1954, Cesar Furnace had become a nationwide leader in HVAC
+            solutions, with a distribution and sales network that stretched
+            across the United States.
           </p>
           <p>
             Our reputation for quality products has only continued to grow. In
-            1986, Williams acquired Hydro-Aire/LANCO, a major manufacturer of
-            fan coils and air handlers. Then, in 1996, the product line was
+            1986, Cesar Furnace acquired Hydro-Aire/LANCO, a major manufacturer
+            of fan coils and air handlers. Then, in 1996, the product line was
             expanded to include room console heaters. Today, we’re proud to
             offer more fan coil sizes and configurations than any other HVAC
             company in the United States.

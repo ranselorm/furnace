@@ -11,7 +11,7 @@ const TheCesarWay: React.FC = () => {
             Leading The Future Of HVAC Solutions
           </p>
           <p className="text-gray-600 mt-6 leading-loose">
-            Jesse Williams understood that his company had to adapt to grow—and
+            Cesar Furnace understood that his company had to adapt to grow—and
             so do we. Today, we use numerically controlled machinery to ensure
             both precision and quality. All of our products are tested to the
             highest standards set by the National Bureau of Standards. We
