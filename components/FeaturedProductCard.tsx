@@ -22,9 +22,9 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
   description,
 }) => {
   return (
-    <div className="max-w-xs bg-white shadow-md rounded-lg flex flex-col justify-between self-center">
+    <div className="max-w-xs bg-white shadow-md flex flex-col justify-between self-center h-96">
       {/* Image Section */}
-      <div className="relative h-40 bg-gray-300 flex items-center justify-center">
+      <div className="relative h-48 bg-gray-300 flex items-center justify-center">
         <img
           src={image}
           alt={title}

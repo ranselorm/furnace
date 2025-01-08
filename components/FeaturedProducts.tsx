@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import FeaturedProductCard from "./FeaturedProductCard";
-import { Dialog } from "@/components/ui/dialog";
 import Link from "next/link";
 
 const FeaturedProducts: React.FC = () => {
@@ -34,8 +33,7 @@ const FeaturedProducts: React.FC = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {/* Left Section */}
-          <div className="bg-dark text-white p-6 rounded-lg flex flex-col justify-between">
+          <div className="bg-dark text-white p-6 flex flex-col justify-between">
             <div>
               <h2 className="text-3xl">FEATURED PRODUCTS</h2>
               <p className="mt-4 text-base font-bold">
