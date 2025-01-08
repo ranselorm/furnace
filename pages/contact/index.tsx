@@ -1,4 +1,5 @@
 import ContactDetails from "@/components/ContactDetails";
+import ContactForm from "@/components/ContactForm";
 import ProductHero from "@/components/ProductHero";
 
 const Contact = () => {
@@ -10,6 +11,7 @@ const Contact = () => {
         subtitle="Get in Touch. We're Here to Help!"
       />
       <ContactDetails />
+      <ContactForm />
     </section>
   );
 };
