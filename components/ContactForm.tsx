@@ -20,7 +20,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 id="firstName"
-                className="w-full bg-gray-300 focus:border-0 focus:ring-none focus:none p-3"
+                className="w-full bg-gray-200 focus:border-0 focus:ring-none focus:none p-3"
                 required
               />
             </div>
@@ -34,7 +34,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 id="lastName"
-                className="w-full bg-gray-300 focus:border-0 focus:ring-none focus:none p-3"
+                className="w-full bg-gray-200 focus:border-0 focus:ring-none focus:none p-3"
                 required
               />
             </div>
@@ -51,7 +51,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full bg-gray-300 focus:border-0 focus:ring-none focus:none p-3"
+                className="w-full bg-gray-200 focus:border-0 focus:ring-none focus:none p-3"
                 required
               />
             </div>
@@ -65,7 +65,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 id="subject"
-                className="w-full bg-gray-300 focus:border-0 focus:ring-none focus:none p-3"
+                className="w-full bg-gray-200 focus:border-0 focus:ring-none focus:none p-3"
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ const ContactForm = () => {
             <textarea
               id="message"
               placeholder="Your message..."
-              className="w-full bg-gray-300 focus:border-0 focus:ring-none focus:none p-3"
+              className="w-full bg-gray-200 focus:border-0 focus:ring-none focus:none p-3"
               required
               rows={10}
             ></textarea>
