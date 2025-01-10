@@ -5,11 +5,9 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   const importantLinks = [
-    { name: "Investor Centre", path: "/investor-centre" },
-    { name: "Reports", path: "/reports" },
-    { name: "Media", path: "/media" },
-    { name: "Presentations", path: "/presentations" },
-    { name: "Events", path: "/events" },
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Products", path: "/products" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -46,17 +44,14 @@ const Footer: React.FC = () => {
           <address className="not-italic text-gray-300">
             Tema Community 25
             <br />
-            <br />
-            Tema
-            <br />
-            <br />
             Accra, Ghana
+            <br />
             <br />
             <br />
             (+233) 244 537 072
             <br />
             <a
-              href="mailto:info@BRL Miningex.ca"
+              href="mailto:caesarkofi@caesarfurnacegh.com"
               className="text-gray-300 hover:text-white transition"
             >
               caesarkofi@caesarfurnacegh.com
