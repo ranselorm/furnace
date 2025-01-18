@@ -3,7 +3,7 @@ import React from "react";
 const ContactDetails: React.FC = () => {
   return (
     <div className="bg-gray-100 flex flex-col md:flex-row items-center md:items-center mb-8">
-      {/* Left Image */}
+      {/* Left map */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0 h-[600px]">
         <img
           src="/images/contact.jpg"
@@ -22,6 +22,10 @@ const ContactDetails: React.FC = () => {
           <span className="font-bold text-2xl text-black">Phone</span> <br />
           <a href="tel:8884441212" className="text-black">
             (+233) 244 537 072
+          </a>{" "}
+          <br />
+          <a href="tel:8884441212" className="text-black">
+            (+233) 248 300357
           </a>
         </p>
         <p className="text-gray-600 mb-6">
@@ -31,6 +35,10 @@ const ContactDetails: React.FC = () => {
             className="text-black"
           >
             caesarkofi@caesarfurnacegh.com
+          </a>{" "}
+          <br />
+          <a href="mailto:novoplastmd@yahoo.co.uk" className="text-black">
+            novoplastmd@yahoo.co.uk
           </a>
         </p>
         <p className="text-gray-600 mb-6">
