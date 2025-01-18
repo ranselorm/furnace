@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const WhyChooseUs: React.FC = () => {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-20 text-center m:dmax-w-5xl w-full">
         {/* Heading */}
         <h2 className="section-title">Why Caesar</h2>

@@ -27,7 +27,7 @@ const TheCesarWay: React.FC = () => {
         {/* Image Collage */}
         <div className="w-1/2 gap-4 h-[500px] flex justify-center">
           <img
-            src="https://images.pexels.com/photos/19781878/pexels-photo-19781878/free-photo-of-close-up-of-flame-in-a-crucible.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/banner2.jpg"
             alt="About Us"
             className="h-full w-full object-cover md:w-[85%]"
           />

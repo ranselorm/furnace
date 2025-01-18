@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Hero: React.FC = () => {
   const images = [
-    "/images/banner1.jpg", // Replace with your image paths
+    "/images/banner1.jpg",
     "/images/banner2.png",
     "/images/banner3.png",
   ];
@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
 
   return (
     <section
-      className="relative h-[75vh] w-full overflow-hidden"
+      className="relative h-[80vh] w-full overflow-hidden"
       style={{
         backgroundImage: `url(${images[currentImage]})`,
         backgroundSize: "cover",

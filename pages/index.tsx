@@ -9,7 +9,7 @@ import GetSupport from "@/components/GetSupport";
 export default function Home() {
   return (
     <>
-      <Hero />;
+      <Hero />
       <ServicesSection />
       <ParallaxProject />
       <FeaturedProducts />

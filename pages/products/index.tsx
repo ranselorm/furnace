@@ -1,49 +1,48 @@
 import React from "react";
-import ProductCard from "@/components/ProductCard";
 import ProductHero from "@/components/ProductHero";
 import FeaturedProductCard from "@/components/FeaturedProductCard";
-import GetSupport from "@/components/GetSupport";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesSection from "@/components/Services";
+import WhereToBuy from "@/components/WhereToBuy";
 
 const products = [
   {
-    image: "/images/product1.png",
+    image: "/images/furn.jpg",
     title: "SMELTING FURNACES",
 
     description:
-      "This is a high-performance, energy-efficient product designed to meet your needs.",
+      "Built for Asanko Gold, FGR Bogosu, Mensin Gold Bibiani, Gold Recovery Tema, and Chirano Goldmines.",
   },
   {
-    image: "/images/product1.png",
+    image: "/images/calcine.jpg",
     title: "CALCINE OVENS",
 
     description:
-      "This deluxe model provides superior comfort with innovative design.",
+      "Built this Calcine Oven for Mensin Gold Bibiani, AngloGold Ashanti (Iduapriem Tarkwa), Asanko Gold, FGR Bogosu, former AGC Obuasi mines.",
   },
   {
-    image: "/images/product1.png",
+    image: "/images/boiler.jpg",
     title: "BOILERS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
   {
-    image: "/images/product1.png",
+    image: "/images/incen.jpg",
     title: "INCINERATORS",
 
     description:
-      "A compact, reliable gas wall heater for small to medium-sized spaces.",
+      "Built this incinerator and wet scrubber at the Caesar Furnace & Kilns Commercial Incineration Center in Kumasi.",
   },
   {
-    image: "/images/product1.png",
-    title: "DRIERS",
+    image: "/images/dryer.jpg",
+    title: "DRYERS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
   {
-    image: "/images/product1.png",
+    image: "/images/kiln.jpg",
     title: "ROTARY KILNS",
 
     description:
@@ -56,9 +55,10 @@ const products = [
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
+
   {
-    image: "/images/product1.png",
-    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+    image: "/images/burner.png",
+    title: "DIESEL AND GAS BURNERS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
@@ -67,7 +67,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section className="">
+    <section className="bg-gray-100">
       <ProductHero
         title="Our Products"
         subtitle="Discover Innovative Solutions Tailored for Comfort and Efficiency."
@@ -85,9 +85,10 @@ const Products = () => {
           ))}
         </div>
       </div>
-      <ServicesSection />
       <WhyChooseUs />
+      <ServicesSection />
       {/* <GetSupport /> */}
+      <WhereToBuy />
     </section>
   );
 };

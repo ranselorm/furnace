@@ -22,13 +22,19 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
   description,
 }) => {
   return (
-    <div className="max-w-xs bg-white shadow-md flex flex-col justify-between self-center h-96">
+    <div className="max-w-xs shadow-md flex flex-col justify-between self-center h-96">
       {/* Image Section */}
-      <div className="relative h-48 bg-gray-300 flex items-center justify-center">
+      <div className="relative h-48 bg-gray-300 flex items-center justify-center hover:scale-105 transition-all duration-300">
         <img
           src={image}
           alt={title}
-          className="w-full h-[80%] object-contain rounded"
+          className={`w-full ${
+            title === "BOILERS" ||
+            title === "INCINERATORS" ||
+            title === "DRYERS"
+              ? "object-cover h-full"
+              : "object-cover h-full"
+          } rounded`}
         />
       </div>
 
@@ -57,7 +63,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
                   <DialogTitle className="text-xl font-bold">
                     {title}
                   </DialogTitle>
-                  <DialogDescription className="mt-2 text-gray-600">
+                  <DialogDescription className="mt-2 text-dark capitalize leading-loose text-lg">
                     {description}
                   </DialogDescription>
                 </DialogHeader>

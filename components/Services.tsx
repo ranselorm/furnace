@@ -31,14 +31,14 @@ const ServicesSection: React.FC = () => {
       image: "/images/banner3.png",
       title: "CALCINATION OVENS",
       description:
-        "For over 25 years, we've proudly offered a diverse and varied range of heating solutions that are safe and reliable for Industry and Mining companies",
+        "Having replaced bricks with cast grooved refractory slabs, our calcine ovens have become the most preferred calcination ovens for mining companies.",
       linkText: "RESIDENTIAL HEATING",
       linkHref: "/residential-heating",
     },
   ];
 
   return (
-    <section className="py-16">
+    <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4 md:px-20 text-center">
         {/* Header */}
         <div className="">
