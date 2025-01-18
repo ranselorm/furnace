@@ -9,42 +9,42 @@ import ServicesSection from "@/components/Services";
 const products = [
   {
     image: "/images/product1.png",
-    title: "AH Horizontal Basic / AV Vertical Basic",
+    title: "SMELTING FURNACES",
 
     description:
       "This is a high-performance, energy-efficient product designed to meet your needs.",
   },
   {
     image: "/images/product1.png",
-    title: "AH Horizontal Deluxe / AV Vertical Deluxe",
+    title: "CALCINE OVENS",
 
     description:
       "This deluxe model provides superior comfort with innovative design.",
   },
   {
     image: "/images/product1.png",
-    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+    title: "BOILERS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
   {
     image: "/images/product1.png",
-    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+    title: "INCINERATORS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
   {
     image: "/images/product1.png",
-    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+    title: "DRIERS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",
   },
   {
     image: "/images/product1.png",
-    title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+    title: "ROTARY KILNS",
 
     description:
       "A compact, reliable gas wall heater for small to medium-sized spaces.",

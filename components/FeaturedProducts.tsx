@@ -6,17 +6,17 @@ const FeaturedProducts: React.FC = () => {
   const products = [
     {
       image: "/images/product1.png", // Replace with actual image paths
-      title: "DESIGNER RISER",
+      title: "SMELTING FURNACES",
       description: "Details about Designer Riser.",
     },
     {
       image: "/images/product1.png",
-      title: "TWINPACK / ER-D",
+      title: "CALCINE OVENS",
       description: "Details about Twinpack / ER-D.",
     },
     {
       image: "/images/product1.png",
-      title: "TWINPACK DESIGNER RISER / DR-D",
+      title: "BOILERS",
       description: "Details about Twinpack Designer Riser / DR-D.",
     },
   ];

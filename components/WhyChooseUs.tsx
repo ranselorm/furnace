@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 
 const WhyChooseUs: React.FC = () => {
   return (
     <section className="py-16 bg-gray-100">
-      <div className="container mx-auto px-4 md:px-20 text-center max-w-5xl w-full">
+      <div className="container mx-auto px-4 md:px-20 text-center m:dmax-w-5xl w-full">
         {/* Heading */}
         <h2 className="section-title">Why Caesar</h2>
         <p className="section-subtitle">
@@ -12,7 +12,7 @@ const WhyChooseUs: React.FC = () => {
         </p>
 
         {/* Description */}
-        <div className="mt-6 text-gray-600 space-y-6">
+        <div className="mt-6 text-gray-600 space-y-6 leading-loose">
           <p>
             For over 25 years, Caesar Furnace has delivered industry-leading
             heating and thermal equipment and solutions for Mining Companies and
@@ -34,13 +34,13 @@ const WhyChooseUs: React.FC = () => {
         {/* Buttons */}
         <div className="mt-8 flex justify-center gap-10">
           <Link
-            href="/our-story"
+            href="/about"
             className="bg-secondary text-white font-bold py-3 px-6"
           >
             OUR STORY
           </Link>
           <a
-            href="/our-mission"
+            href="/about"
             className="bg-secondary text-white font-bold py-3 px-6"
           >
             OUR MISSION
