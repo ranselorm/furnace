@@ -47,10 +47,10 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
               See Details
             </button>
           </DialogTrigger>
-          <DialogContent className="p-0 border-none max-w-[90%] md:max-w-[60%] rounded-lg">
+          <DialogContent className="p-0 border-none max-w-[90%] md:max-w-[60%] h-[400px] rounded-lg">
             <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden">
               {/* Image Section */}
-              <div className="w-full md:w-1/2 h-64 md:h-auto flex items-center justify-center bg-gray-100">
+              <div className="w-full md:w-1/2 h-64 md:h-full flex items-center justify-center bg-gray-100">
                 <img
                   src={image}
                   alt={title}
@@ -63,7 +63,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
                   <DialogTitle className="text-xl font-bold">
                     {title}
                   </DialogTitle>
-                  <DialogDescription className="mt-2 text-dark capitalize leading-loose text-lg">
+                  <DialogDescription className="mt-2 text-dark leading-loose text-lg">
                     {description}
                   </DialogDescription>
                 </DialogHeader>
