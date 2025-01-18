@@ -7,23 +7,31 @@ const ServicesSection: React.FC = () => {
       image: "/images/banner1.jpg", // Replace with your image paths
       title: "FURNACES",
       description:
-        "Our industry-leading heating products deliver comfort when and where you need it, creating the ideal indoor environment.",
+        "Our industry-leading heating products are highly automated with controllable temperatures.",
       linkText: "LEARN MORE",
       linkHref: "/furnaces",
     },
     {
       image: "/images/banner2.png",
-      title: "COMMERCIAL HVAC SYSTEMS",
+      title: "BOILERS",
       description:
-        "With tailored solutions for multi-unit residential buildings, our systems offer precise temperature control and powerful performance.",
+        "With tailored solutions for industry, our boilers offer precise temperature control and powerful performance.",
       linkText: "COMMERCIAL HVAC SYSTEMS",
       linkHref: "/commercial-hvac",
     },
     {
       image: "/images/banner3.png",
-      title: "RESIDENTIAL HEATING",
+      title: "KILNS",
       description:
-        "For over 100 years, we've proudly offered a diverse and varied range of heating solutions that are safe and reliable for every home.",
+        "For over 25 years, we've proudly offered a diverse and varied range of heating solutions that are safe and reliable for Industry and Mining companies",
+      linkText: "RESIDENTIAL HEATING",
+      linkHref: "/residential-heating",
+    },
+    {
+      image: "/images/banner3.png",
+      title: "CALCINATION OVENS",
+      description:
+        "For over 25 years, we've proudly offered a diverse and varied range of heating solutions that are safe and reliable for Industry and Mining companies",
       linkText: "RESIDENTIAL HEATING",
       linkHref: "/residential-heating",
     },
@@ -34,17 +42,13 @@ const ServicesSection: React.FC = () => {
       <div className="container mx-auto px-4 md:px-20 text-center">
         {/* Header */}
         <div className="">
-          <h2 className="section-title">
-            FIND THE RIGHT HVAC <br className="hidden md:flex" />
-            SOLUTION
+          <h2 className="section-title md:max-w-4xl mx-auto">
+            Find the right heating / thermal equipment for your solution
           </h2>
-          <p className="section-subtitle">
-            Experience Innovation And Efficiency
-          </p>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-16">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

@@ -12,14 +12,14 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 4000); // Change every 3 seconds
+    }, 4000); // Change every 4 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
 
   return (
     <section
-      className="relative h-[70vh] w-full overflow-hidden"
+      className="relative h-[75vh] w-full overflow-hidden"
       style={{
         backgroundImage: `url(${images[currentImage]})`,
         backgroundSize: "cover",
@@ -32,11 +32,16 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-        <h1 className="text-2xl md:text-5xl uppercase tracking-[4px]">
-          Highly Efficient Heating <br /> and Cooling Solutions
+        <h1
+          className="text-xl md:text-6xl uppercase font-semibold"
+          style={{ lineHeight: 1.3 }}
+        >
+          Highly Efficient Heating <br className="hidden md:flex" /> Systems and
+          Solutions
         </h1>
-        <p className="mt-4 text-base md:text-lg font-bold">
-          Residential and Commercial Products
+        <p className="mt-4 text-base md:text-xl font-bold">
+          Industrial and Mineral processing furnaces, boilers, <br />
+          driers and kilns
         </p>
         <button className="mt-6 bg-secondary text-white font-bold py-3 px-8 rounded uppercase transition">
           Our Products

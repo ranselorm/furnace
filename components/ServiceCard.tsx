@@ -18,20 +18,20 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
       {/* Image */}
-      <div className="relative h-56 w-full">
+      <div className="relative h-40 w-full">
         <img src={image} alt={title} className="h-full w-full object-cover" />
       </div>
 
       {/* Content */}
-      <div className="p-6">
-        <h3 className="text-lg text-black">{title}</h3>
-        <p className="text-gray-600 mt-2">{description}</p>
-        <a
+      <div className="py-4 px-2">
+        <h3 className="text-lg text-black font-bold">{title}</h3>
+        <p className="text-dark mt-2 text-sm">{description}</p>
+        {/* <a
           href={linkHref}
           className="text-orange-500 font-bold mt-4 inline-block"
         >
           {linkText}
-        </a>
+        </a> */}
       </div>
     </div>
   );
