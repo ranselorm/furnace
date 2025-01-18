@@ -1,40 +1,32 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
+import Link from "next/link";
 import React from "react";
 
-interface ServiceCardProps {
-  image: string;
+interface BuyCardProps {
+  icon: string;
   title: string;
   description: string;
   linkText: string;
   linkHref: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({
-  image,
+const ServicesCard: React.FC<BuyCardProps> = ({
+  icon,
   title,
   description,
   linkText,
   linkHref,
 }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
-      {/* Image */}
-      <div className="relative h-40 w-full">
-        <img src={image} alt={title} className="h-full w-full object-cover" />
-      </div>
-
+    <div className="bg-white shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 md:w-[310px] h-96">
       {/* Content */}
-      <div className="py-4 px-2">
-        <h3 className="text-lg text-black font-bold">{title}</h3>
-        <p className="text-dark mt-2 text-sm">{description}</p>
-        {/* <a
-          href={linkHref}
-          className="text-orange-500 font-bold mt-4 inline-block"
-        >
-          {linkText}
-        </a> */}
+      <div className="p-6 flex flex-col items-center justify-center gap-y-6">
+        <Icon icon={icon} fontSize={60} color="#d67d00" />
+        <h3 className="text-lg text-black uppercase">{title}</h3>
+        <p className="text-gray-600 mt-2">{description}</p>
       </div>
     </div>
   );
 };
 
-export default ServiceCard;
+export default ServicesCard;

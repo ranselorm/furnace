@@ -54,7 +54,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
                 <img
                   src={image}
                   alt={title}
-                  className="w-full h-full object-contain p-4"
+                  className="w-full h-full object-co p-4"
                 />
               </div>
               {/* Details Section */}
@@ -63,7 +63,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
                   <DialogTitle className="text-xl font-bold">
                     {title}
                   </DialogTitle>
-                  <DialogDescription className="mt-2 text-dark leading-loose text-lg">
+                  <DialogDescription className="mt-2 text-dark capitalize leading-loose text-lg">
                     {description}
                   </DialogDescription>
                 </DialogHeader>
