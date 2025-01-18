@@ -18,7 +18,7 @@ const ServicesCard: React.FC<BuyCardProps> = ({
   linkHref,
 }) => {
   return (
-    <div className="bg-white shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 md:w-[310px] h-96">
+    <div className="bg-white shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 md:w-[310px] h-80">
       {/* Content */}
       <div className="p-6 flex flex-col items-center justify-center gap-y-6">
         <Icon icon={icon} fontSize={60} color="#d67d00" />
