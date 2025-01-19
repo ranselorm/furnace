@@ -23,7 +23,7 @@ const FeaturedProducts: React.FC = () => {
       title: "BOILERS",
 
       description:
-        "A compact, reliable gas wall heater for small to medium-sized spaces.",
+        "Reliable and energy-efficient boilers designed for producing high-pressure steam or hot water for industrial and commercial heating needs.",
     },
     {
       image: "/images/incen.jpg",
@@ -37,21 +37,21 @@ const FeaturedProducts: React.FC = () => {
       title: "DRYERS",
 
       description:
-        "A compact, reliable gas wall heater for small to medium-sized spaces.",
+        "Built this incinerator for Movis Logistics for the incineration of cyanide packages.",
     },
     {
       image: "/images/kiln.jpg",
-      title: "ROTARY KILNS",
+      title: "KILNS",
 
       description:
-        "A compact, reliable gas wall heater for small to medium-sized spaces.",
+        "A carbon regeneration kiln being built by Caesar Furnace for Asante Gold - Mensin.",
     },
     {
-      image: "/images/product1.png",
-      title: "CARMEL™ AC2030TNA Top Vent Gas Wall Heater",
+      image: "/images/cruci.jpg",
+      title: "CRUCIBLES",
 
       description:
-        "A compact, reliable gas wall heater for small to medium-sized spaces.",
+        "Durable, high-performance containers designed for melting and holding metals at high temperatures in industrial and laboratory settings.",
     },
 
     {
@@ -59,7 +59,7 @@ const FeaturedProducts: React.FC = () => {
       title: "DIESEL AND GAS BURNERS",
 
       description:
-        "A compact, reliable gas wall heater for small to medium-sized spaces.",
+        "Efficient diesel and gas burners engineered to deliver precise heat control and optimized fuel consumption for various industrial applications.",
     },
   ];
 

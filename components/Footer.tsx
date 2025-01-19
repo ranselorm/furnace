@@ -42,19 +42,27 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Location</h3>
           <address className="not-italic text-gray-300">
-            Tema Community 25
+            Tema Community 6
             <br />
-            Accra, Ghana
-            <br />
-            <br />
-            <br />
-            (+233) 244 537 072
+            +233 244 537 072
             <br />
             <a
               href="mailto:caesarkofi@caesarfurnacegh.com"
               className="text-gray-300 hover:text-white transition"
             >
               caesarkofi@caesarfurnacegh.com
+            </a>
+          </address>
+          <address className="not-italic text-gray-300 mt-6">
+            Manhyia, near Ejisu, Kumasi
+            <br />
+            +233 244 300 357
+            <br />
+            <a
+              href="mailto:novoplastmd@yahoo.co.uk"
+              className="text-gray-300 hover:text-white transition"
+            >
+              novoplastmd@yahoo.co.uk
             </a>
           </address>
         </div>

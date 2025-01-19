@@ -8,7 +8,7 @@ const GetSupport: React.FC = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2">
           <img
-            src="/images/support.jpg" // Replace with the actual image path
+            src="https://images.pexels.com/photos/17406672/pexels-photo-17406672/free-photo-of-welder-at-work.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Get Support"
             className=""
           />
@@ -19,9 +19,10 @@ const GetSupport: React.FC = () => {
           <h2 className="section-title">GET SUPPORT</h2>
           <p className="text-sub mt-4">Find Installation Assistance</p>
           <p className="text-gray-600 mt-4">
-            Our warranties are contingent on installation by a qualified
-            installer (contractor). For service or installation questions,
-            please visit our support guide for assistance.
+            Caesar Furnace offers support and installation help to ensure your
+            equipment works perfectly. Our warranties require installation by
+            qualified professionals. For any service or installation questions,
+            our team is here to assist you.
           </p>
           <Link
             href="/contact"

@@ -25,7 +25,7 @@ const WhereToBuy: React.FC = () => {
     <section
       className="relative bg-fixed bg-center bg-cover h-auto text-white"
       style={{
-        backgroundImage: `url('/images/para.jpg')`,
+        backgroundImage: `url('https://images.pexels.com/photos/7519887/pexels-photo-7519887.jpeg?auto=compress&cs=tinysrgb&w')`,
       }}
     >
       <div className="absolute inset-0 bg-black/70"></div>

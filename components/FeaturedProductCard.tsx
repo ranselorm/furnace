@@ -54,7 +54,7 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
                 <img
                   src={image}
                   alt={title}
-                  className="w-full h-full object-co p-4"
+                  className="w-full h-full object-contain p-4"
                 />
               </div>
               {/* Details Section */}

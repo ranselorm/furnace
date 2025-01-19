@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
 import React from "react";
 
 const ContactDetails: React.FC = () => {
@@ -18,32 +19,49 @@ const ContactDetails: React.FC = () => {
         <p className="text-2xl font-meduim text-black mb-6 mt-3">
           Our customer support team is here for you
         </p>
-        <p className="text-gray-600 mb-6">
-          <span className="font-bold text-2xl text-black">Phone</span> <br />
-          <a href="tel:8884441212" className="text-black">
-            (+233) 244 537 072
-          </a>{" "}
+        <p className="text-gray-600 mb-20 space-y-1">
+          <span className="font-bold text-2xl text-black">Tema Branch</span>{" "}
           <br />
-          <a href="tel:8884441212" className="text-black">
-            (+233) 248 300357
+          <a className="text-black flex items-center gap-x-2">
+            <Icon icon="mdi:location" className="text-secondary text-lg" />
+            Community 6
+          </a>
+          <a className="text-black flex items-center gap-x-2">
+            <Icon icon="ic:baseline-phone" className="text-secondary text-lg" />
+            +233 244 537 072
+          </a>
+          <a
+            className="text-black flex items-center gap-x-2"
+            href="mailto:Caesarkofi@caesarfurnacegh.com"
+          >
+            <Icon
+              icon="ic:baseline-email"
+              className="text-secondary text-base"
+            />
+            caesarkofi@caesarfurnacegh.com
           </a>
         </p>
-        <p className="text-gray-600 mb-6">
-          <span className="font-bold text-2xl text-black">Email:</span> <br />
-          <a
-            href="mailto:Caesarkofi@caesarfurnacegh.com"
-            className="text-black"
-          >
-            caesarkofi@caesarfurnacegh.com
-          </a>{" "}
+        <p className="text-gray-600 mb-6 space-y-1">
+          <span className="font-bold text-2xl text-black">Kumasi Branch</span>{" "}
           <br />
-          <a href="mailto:novoplastmd@yahoo.co.uk" className="text-black">
+          <a className="text-black flex items-center gap-x-2">
+            <Icon icon="mdi:location" className="text-secondary text-lg" />
+            Manhyia, near Ejisu, Kumasi
+          </a>
+          <a className="text-black flex items-center gap-x-2">
+            <Icon icon="ic:baseline-phone" className="text-secondary text-lg" />
+            +233 244 300 357
+          </a>
+          <a
+            className="text-black flex items-center gap-x-2"
+            href="mailto:novoplastmd@yahoo.co.uk"
+          >
+            <Icon
+              icon="ic:baseline-email"
+              className="text-secondary text-base"
+            />
             novoplastmd@yahoo.co.uk
           </a>
-        </p>
-        <p className="text-gray-600 mb-6">
-          <span className="font-bold text-2xl text-black">Address</span> <br />
-          <a className="text-black">Some Address in Accra, Ghana</a>
         </p>
       </div>
     </div>

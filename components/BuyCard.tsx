@@ -24,6 +24,9 @@ const BuyCard: React.FC<BuyCardProps> = ({
         <Icon icon={icon} fontSize={60} color="#d67d00" />
         <h3 className="text-lg text-black uppercase">{title}</h3>
         <p className="text-gray-600 mt-2">{description}</p>
+        <Link href="/contact" className="bg-dark px-6 py-2 mt-4 uppercase">
+          Get Started
+        </Link>
       </div>
     </div>
   );

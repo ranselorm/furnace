@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const Hero: React.FC = () => {
   const images = [
-    "/images/banner1.jpg",
-    "/images/banner2.png",
-    "/images/banner3.png",
+    "https://images.pexels.com/photos/17406672/pexels-photo-17406672/free-photo-of-welder-at-work.jpeg?auto=compress&cs=tinysrgb&",
+    "https://images.pexels.com/photos/2880872/pexels-photo-2880872.jpeg?auto=compress&cs=tinysrgb&",
+    "https://images.pexels.com/photos/3736102/pexels-photo-3736102.jpeg?auto=compress&cs=tinysrgb&",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
