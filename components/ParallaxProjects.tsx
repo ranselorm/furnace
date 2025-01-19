@@ -49,18 +49,7 @@ const ParallaxProject: React.FC = () => {
           Find out why we&apos;re a trusted national name in heating and air
           conditioning. Take a look at some of our projects across the country.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          {projects.map((service, index) => (
-            <ServiceCard
-              key={index}
-              image={service.image}
-              title={service.title}
-              description={service.description}
-              linkText={service.linkText}
-              linkHref={service.linkHref}
-            />
-          ))}
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16"></div>
       </div>
     </section>
   );

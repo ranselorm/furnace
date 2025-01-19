@@ -10,13 +10,7 @@ interface BuyCardProps {
   linkHref: string;
 }
 
-const ServicesCard: React.FC<BuyCardProps> = ({
-  icon,
-  title,
-  description,
-  linkText,
-  linkHref,
-}) => {
+const ServicesCard: React.FC<BuyCardProps> = ({ icon, title, description }) => {
   return (
     <div className="bg-white shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 md:w-[310px] h-80">
       {/* Content */}
