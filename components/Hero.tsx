@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   const images = [
@@ -43,9 +44,12 @@ const Hero: React.FC = () => {
           Industrial and Mineral processing furnaces, boilers, <br />
           driers and kilns
         </p>
-        <button className="mt-6 bg-secondary text-white font-bold py-3 px-8 uppercase transition">
+        <Link
+          href="/products"
+          className="mt-6 bg-secondary text-white font-bold py-3 px-8 uppercase transition"
+        >
           Our Products
-        </button>
+        </Link>
       </div>
     </section>
   );
