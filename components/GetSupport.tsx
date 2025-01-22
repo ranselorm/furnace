@@ -7,11 +7,7 @@ const GetSupport: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center gap-12">
         {/* Image Section */}
         <div className="w-full md:w-1/2">
-          <img
-            src="https://images.pexels.com/photos/17406672/pexels-photo-17406672/free-photo-of-welder-at-work.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="Get Support"
-            className=""
-          />
+          <img src="/images/warehouse.jpg" alt="Get Support" className="" />
         </div>
 
         {/* Content Section */}
