@@ -5,12 +5,10 @@ const GetSupport: React.FC = () => {
   return (
     <section className="">
       <div className="flex flex-col md:flex-row items-center gap-12">
-        {/* Image Section */}
         <div className="w-full md:w-1/2">
           <img src="/images/warehouse.jpg" alt="Get Support" className="" />
         </div>
 
-        {/* Content Section */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="section-title">GET SUPPORT</h2>
           <p className="text-sub mt-4">Find Installation Assistance</p>
