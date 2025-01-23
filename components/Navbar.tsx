@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import Image from "next/image";
 
 interface NavLink {
   label: string;
@@ -42,8 +43,15 @@ const Navbar: React.FC = () => {
       <div className="shadow-md py-4 bg-white">
         <main className="container mx-auto px-4 md:px-20 flex justify-between items-center">
           {/* Logo */}
-          <div className="font-bold text-lg">Cesar Furnace</div>
+          {/* <div className="font-bold text-lg">Cesar Furnace</div> */}
           {/* Hamburger Menu Icon */}
+          <div className="relative w-[140px] h-[60px]">
+            <img
+              src="/images/fl.png"
+              alt=""
+              className="w-full h-full object-contain"
+            />
+          </div>
           <button
             onClick={toggleMenu}
             className="block md:hidden text-dark text-2xl"
