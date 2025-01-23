@@ -44,7 +44,9 @@ const Footer: React.FC = () => {
           <address className="not-italic text-gray-300">
             Tema Community 6
             <br />
-            +233 244 537 072
+            Ghana, West Africa
+            <br />
+            +233 244 537 072 / +233 244 300 357
             <br />
             <a
               href="mailto:caesarkofi@caesarfurnacegh.com"
@@ -56,13 +58,15 @@ const Footer: React.FC = () => {
           <address className="not-italic text-gray-300 mt-6">
             Manhyia, near Ejisu, Kumasi
             <br />
-            +233 244 300 357
+            Ghana, West Africa
+            <br />
+            +233 244 537 072 / +233 244 300 357
             <br />
             <a
-              href="mailto:novoplastmd@yahoo.co.uk"
+              href="mailto:caesarkofi@caesarfurnacegh.com"
               className="text-gray-300 hover:text-white transition"
             >
-              novoplastmd@yahoo.co.uk
+              caesarkofi@caesarfurnacegh.com
             </a>
           </address>
         </div>

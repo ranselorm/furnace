@@ -24,11 +24,13 @@ const ContactDetails: React.FC = () => {
           <br />
           <a className="text-black flex items-center gap-x-2">
             <Icon icon="mdi:location" className="text-secondary text-lg" />
-            Community 6
+            Community 6, <br />
+            Ghana, West Africa
           </a>
           <a className="text-black flex items-center gap-x-2">
             <Icon icon="ic:baseline-phone" className="text-secondary text-lg" />
-            +233 244 537 072
+            +233 244 537 072 <br />
+            +233 244 300 357
           </a>
           <a
             className="text-black flex items-center gap-x-2"
@@ -46,21 +48,22 @@ const ContactDetails: React.FC = () => {
           <br />
           <a className="text-black flex items-center gap-x-2">
             <Icon icon="mdi:location" className="text-secondary text-lg" />
-            Manhyia, near Ejisu, Kumasi
+            Manhyia, near Ejisu, Kumasi <br /> Ghana, West Africa
           </a>
           <a className="text-black flex items-center gap-x-2">
             <Icon icon="ic:baseline-phone" className="text-secondary text-lg" />
+            +233 244 537 072 <br />
             +233 244 300 357
           </a>
           <a
             className="text-black flex items-center gap-x-2"
-            href="mailto:novoplastmd@yahoo.co.uk"
+            href="mailto:caesarkofi@caesarfurnacegh.com"
           >
             <Icon
               icon="ic:baseline-email"
               className="text-secondary text-base"
             />
-            novoplastmd@yahoo.co.uk
+            caesarkofi@caesarfurnacegh.com
           </a>
         </p>
       </div>

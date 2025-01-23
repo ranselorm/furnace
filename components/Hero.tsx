@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         </h1>
         <p className="mt-4 text-base md:text-xl font-bold">
           Industrial and Mineral processing furnaces, boilers, <br />
-          driers and kilns
+          driers and kilns in Ghana, West Africa
         </p>
         <Link
           href="/products"

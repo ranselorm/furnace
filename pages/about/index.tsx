@@ -1,3 +1,4 @@
+import Divider from "@/components/Divider";
 import GetSupport from "@/components/GetSupport";
 import ProductHero from "@/components/ProductHero";
 import TheCesarWay from "@/components/TheCesarWay";
@@ -13,6 +14,7 @@ const About = () => {
         subtitle="Crafting Excellence and Comfort for Everyone"
       />
       <WhoIsCesar />
+      <Divider />
       <TheCesarWay />
       <GetSupport />
     </div>

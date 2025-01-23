@@ -40,10 +40,11 @@ const Divider: React.FC = () => {
 
       <div className="relative z-10 flex flex-col items-center py-20 h-full text-center px-4 md:px-20 container mx-auto">
         <p className="mt-2 text-base md:text-xl md:max-w-4xl text-white text-center leading-relaxed">
-          At Caesar Furnace, we combine innovation and expertise to deliver
-          world-class thermal solutions tailored to your industrial needs. Our
-          commitment to quality and precision has made us a trusted partner in
-          the mining and manufacturing sectors.
+          At Caesar Furnace, based in Ghana, West Africa, we combine innovation
+          and expertise to deliver world-class thermal solutions tailored to
+          your industrial needs. Our commitment to quality and precision has
+          made us a trusted partner in the mining and manufacturing sectors
+          across the region.
         </p>
       </div>
     </section>
