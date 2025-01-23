@@ -4,6 +4,7 @@ import FeaturedProductCard from "@/components/FeaturedProductCard";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesSection from "@/components/Services";
 import WhereToBuy from "@/components/WhereToBuy";
+import Accessories from "@/components/Accessories";
 
 const products = [
   {
@@ -73,8 +74,9 @@ const Products = () => {
         subtitle="Discover Innovative Solutions Tailored for Comfort and Efficiency."
         backgroundImage="/images/banner3.png"
       />
-      <div className="container mx-auto px-4 md:px-20">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-6 py-16">
+      <div className="container mx-auto px-4 md:px-20 py-16">
+        <h3 className="text-3xl mb-6">Explore Our Products</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-6">
           {products.map((product, index) => (
             <FeaturedProductCard
               key={index}
@@ -85,6 +87,7 @@ const Products = () => {
           ))}
         </div>
       </div>
+      <Accessories />
       <WhyChooseUs />
       <ServicesSection />
       {/* <GetSupport /> */}
