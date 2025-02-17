@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
     <nav className="relative">
       {/* Top Bar */}
       <div className="py-2 bg-dark text-white">
-        <div className="container mx-auto px-4 md:px-20 flex justify-between items-center">
+        <div className="container mx-auto px-4 md:px-20 flex flex-col md:flex-row justify-between items-center">
           <p className="flex items-center gap-2">
             <Icon icon="ic:baseline-phone" color="#FF7C00" fontSize={24} />
             <span className="text-base font-bold">+233 244 537 072</span>
