@@ -6,7 +6,7 @@ const GetSupport: React.FC = () => {
     <section className="">
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
-          <img src="/images/warehouse.jpg" alt="Get Support" className="" />
+          <img src="/images/ksi.jpg" alt="Get Support" className="" />
         </div>
 
         <div className="w-full md:w-1/2 text-center md:text-left">
