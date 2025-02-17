@@ -50,7 +50,7 @@ const Gallery: React.FC = () => {
               onClick={(e) => e.stopPropagation()}
             />
             <button
-              className="absolute top-2 right-2 text-white text-3xl font-bold"
+              className="absolute top-2 right-2 text-white text-4xl font-bold"
               onClick={() => setSelectedImage(null)}
             >
               &times;
