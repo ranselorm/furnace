@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesSection from "@/components/Services";
 import WhereToBuy from "@/components/WhereToBuy";
 import Accessories from "@/components/Accessories";
+import Gallery from "@/components/Gallery";
 
 const products = [
   {
@@ -91,6 +92,7 @@ const Products = () => {
       <WhyChooseUs />
       <ServicesSection />
       {/* <GetSupport /> */}
+      <Gallery />
       <WhereToBuy />
     </section>
   );

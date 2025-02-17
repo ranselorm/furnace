@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
 import BuyCard from "./BuyCard";
+import Gallery from "./Gallery";
 
 const ServicesSection: React.FC = () => {
   const services = [
@@ -45,14 +46,12 @@ const ServicesSection: React.FC = () => {
   return (
     <section className="py-20 bg-gray-100">
       <div className="container mx-auto px-4 md:px-0 text-center">
-        {/* Header */}
         <div className="">
           <h2 className="section-title md:max-w-4xl mx-auto">
             Find the right heating / thermal equipment for your solution
           </h2>
         </div>
 
-        {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-16">
           {services.map((service, index) => (
             <ServiceCard

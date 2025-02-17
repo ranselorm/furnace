@@ -20,13 +20,13 @@ const images = [
 const Gallery: React.FC = () => {
   return (
     <section className="py-16">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-20">
         {images.map((src, index) => (
           <div key={index} className="overflow-hidden rounded-xl group">
             <img
               src={src}
               alt={`Gallery ${index + 1}`}
-              className="w-full h-[250px] md:h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-[250px] md:h-[350px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
             />
           </div>
         ))}
