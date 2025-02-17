@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
           {/* Hamburger Menu Icon */}
           <div className="relative w-[140px] h-[60px]">
             <img
-              src="/images/fl.png"
+              src="/images/pl.png"
               alt=""
               className="w-full h-full object-contain"
             />
