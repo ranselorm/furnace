@@ -12,9 +12,6 @@ const images = [
   "/images/gallery7.jpg",
   "/images/gallery8.jpg",
   "/images/gallery9.jpg",
-  // "/images/gallery10.jpg",
-  // "/images/gallery11.jpg",
-  // "/images/gallery12.jpg",
 ];
 
 const Gallery: React.FC = () => {
@@ -40,7 +37,6 @@ const Gallery: React.FC = () => {
         </div>
       </section>
 
-      {/* Fullscreen Modal */}
       {selectedImage && (
         <div
           className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50"
@@ -51,7 +47,7 @@ const Gallery: React.FC = () => {
               src={selectedImage}
               alt="Full view"
               className="max-h-[90vh] max-w-[90vw] rounded-lg"
-              onClick={(e) => e.stopPropagation()} // Prevent closing modal when clicking on the image
+              onClick={(e) => e.stopPropagation()}
             />
             <button
               className="absolute top-2 right-2 text-white text-3xl font-bold"
