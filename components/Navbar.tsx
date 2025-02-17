@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
 
 interface NavLink {
   label: string;
@@ -28,7 +27,6 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="relative">
-      {/* Top Bar */}
       <div className="py-2 bg-dark text-white">
         <div className="container mx-auto px-4 md:px-20 flex flex-col md:flex-row justify-between items-center">
           <p className="flex items-center gap-2">
@@ -39,18 +37,16 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Main Navbar */}
       <div className="shadow-md py-4 bg-white">
         <main className="container mx-auto px-4 md:px-20 flex justify-between items-center">
-          {/* Logo */}
-          {/* <div className="font-bold text-lg">Cesar Furnace</div> */}
-          {/* Hamburger Menu Icon */}
           <div className="relative w-[140px] h-[60px]">
-            <img
-              src="/images/pl.png"
-              alt=""
-              className="w-full h-full object-contain"
-            />
+            <Link href="/">
+              <img
+                src="/images/lg2.png"
+                alt="logo"
+                className="w-full h-full object-contain"
+              />
+            </Link>
           </div>
           <button
             onClick={toggleMenu}
