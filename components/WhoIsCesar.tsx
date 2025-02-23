@@ -4,11 +4,8 @@ const WhoIsCesar: React.FC = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto px-4 md:px-20 text-center md:max-w-5xl">
-        {/* Heading */}
         <h2 className="section-title md:max-w-3xl mx-auto">Who are we?</h2>
-        {/* <p className="text-sub mt-4">Leading The Future Of Thermal Equipment</p> */}
 
-        {/* Description */}
         <div className="mt-8 space-y-6 text-gray-600 leading-loose">
           <p>
             For over 25 years, Caesar Furnace has delivered industry-leading
