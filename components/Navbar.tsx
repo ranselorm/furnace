@@ -58,7 +58,6 @@ const Navbar: React.FC = () => {
             />
           </button>
 
-          {/* Overlay */}
           {isMenuOpen && (
             <div
               className="fixed inset-0 bg-black bg-opacity-50 z-40"
@@ -66,13 +65,11 @@ const Navbar: React.FC = () => {
             ></div>
           )}
 
-          {/* Navigation Links */}
           <div
             className={`${
               isMenuOpen ? "translate-x-0" : "translate-x-full"
             } fixed top-0 right-0 h-full w-4/5 bg-white z-50 flex flex-col items-center justify-center space-y-6 transition-transform duration-300 md:static md:h-auto md:w-auto md:flex-row md:space-y-0 md:space-x-6 md:translate-x-0`}
           >
-            {/* Close Icon for Mobile */}
             <button
               onClick={closeMenu}
               className="absolute top-4 right-4 text-dark text-2xl md:hidden"
