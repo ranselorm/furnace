@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 4000); // Change every 4 seconds
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -28,10 +28,8 @@ const Hero: React.FC = () => {
         transition: "background-image 1s ease-in-out",
       }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-75"></div>
 
-      {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
         <h1
           className="text-xl md:text-6xl uppercase font-semibold"
