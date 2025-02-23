@@ -5,10 +5,8 @@ const WhyChooseUs: React.FC = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-20 text-center m:dmax-w-5xl w-full">
-        {/* Heading */}
         <h2 className="section-title">Why Caesar</h2>
 
-        {/* Description */}
         <div className="mt-6 text-gray-600 space-y-6 leading-loose">
           <p>
             For over 25 years, Caesar Furnace has delivered industry-leading
@@ -28,7 +26,6 @@ const WhyChooseUs: React.FC = () => {
           </p>
         </div>
 
-        {/* Buttons */}
         <div className="mt-8 flex justify-center gap-10">
           <Link
             href="/about"
