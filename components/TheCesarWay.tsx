@@ -4,7 +4,6 @@ const TheCesarWay: React.FC = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto px-4 md:px-20 flex flex-col md:flex-row items-center gap-12">
-        {/* Text Content */}
         <div className="w-full md:w-1/2">
           <h2 className="section-title">
             THE CAESAR WAY- IF IT IS NOT SAFE, DONT DELIVER IT
@@ -24,7 +23,6 @@ const TheCesarWay: React.FC = () => {
           </p>
         </div>
 
-        {/* Image Collage */}
         <div className="w-1/2 gap-4 h-[500px] flex justify-center">
           <img
             src="/images/banner2.jpg"
