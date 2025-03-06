@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.caesarfurnacegh.com
+
+# Sitemaps
+Sitemap: https://www.caesarfurnacegh.com/sitemap.xml
