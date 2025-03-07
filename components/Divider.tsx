@@ -1,32 +1,4 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
-
-const projects = [
-  {
-    image: "/images/banner1.jpg",
-    title: "FURNACES",
-    description:
-      "Our industry-leading heating products deliver comfort when and where you need it, creating the ideal indoor environment.",
-    linkText: "LEARN MORE",
-    linkHref: "/furnaces",
-  },
-  {
-    image: "/images/banner2.png",
-    title: "COMMERCIAL HVAC SYSTEMS",
-    description:
-      "With tailored solutions for multi-unit residential buildings, our systems offer precise temperature control and powerful performance.",
-    linkText: "COMMERCIAL HVAC SYSTEMS",
-    linkHref: "/commercial-hvac",
-  },
-  {
-    image: "/images/banner3.png",
-    title: "RESIDENTIAL HEATING",
-    description:
-      "For over 100 years, we've proudly offered a diverse and varied range of heating solutions that are safe and reliable for every home.",
-    linkText: "RESIDENTIAL HEATING",
-    linkHref: "/residential-heating",
-  },
-];
 
 const Divider: React.FC = () => {
   return (
