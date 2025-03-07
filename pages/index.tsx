@@ -40,7 +40,6 @@ export default function Home() {
       <Hero />
       <ServicesSection />
       <Divider />
-      {/* <ParallaxProject /> */}
       <FeaturedProducts />
       <WhyChooseUs />
       <WhereToBuy />
