@@ -7,15 +7,15 @@ interface NavLink {
   href: string;
 }
 
+const navLinks: NavLink[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Products/Services", href: "/products" },
+  { label: "Contact", href: "/contact" },
+];
+
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const navLinks: NavLink[] = [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "Products/Services", href: "/products" },
-    { label: "Contact", href: "/contact" },
-  ];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
