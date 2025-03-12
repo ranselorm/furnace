@@ -43,13 +43,13 @@ const products = [
     description:
       "Built this incinerator for Movis Logistics for the incineration of cyanide packages.",
   },
-  {
-    image: "/images/kiln.jpg",
-    title: "KILNS",
+  // {
+  //   image: "/images/kiln.jpg",
+  //   title: "KILNS",
 
-    description:
-      "A carbon regeneration kiln being built by Caesar Furnace for Asante Gold - Mensin.",
-  },
+  //   description:
+  //     "A carbon regeneration kiln being built by Caesar Furnace for Asante Gold - Mensin.",
+  // },
   {
     image: "/images/cruci.jpg",
     title: "CRUCIBLES",
