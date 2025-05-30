@@ -7,6 +7,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import Image from "next/image";
 
 interface FeaturedProductCardProps {
   key: string;
@@ -47,8 +48,8 @@ const FeaturedProductCard: React.FC<FeaturedProductCardProps> = ({
           </DialogTrigger>
           <DialogContent className="p-0 border-none max-w-[90%] md:max-w-[60%] h-[400px] rounded-lg">
             <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden">
-              <div className="w-full md:w-1/2 h-64 md:h-full flex items-center justify-center bg-gray-100">
-                <img
+              <div className="w-full md:w-1/2 h-64 md:h-full flex items-center justify-center bg-gray-100 overflow-hidden  rounded-md">
+                <Image
                   src={image}
                   alt={title}
                   className="w-full h-full object-contain p-4"
