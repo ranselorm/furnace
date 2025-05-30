@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dialog";
 
 interface FeaturedProductCardProps {
-  key: number;
+  key: string;
   image: string;
   title: string;
   description: string;

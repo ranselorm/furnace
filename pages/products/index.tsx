@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import ProductHero from "@/components/ProductHero";
 import FeaturedProductCard from "@/components/FeaturedProductCard";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -19,13 +20,19 @@ const Products = () => {
       <div className="container mx-auto px-4 md:px-20 py-16">
         <h3 className="text-3xl mb-6">Explore Our Products</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-6">
-          {products.map((product, index) => (
-            <FeaturedProductCard
-              key={index}
-              image={product.image}
-              title={product.title}
-              description={product.description}
-            />
+          {products.map((product) => (
+            <Link
+              key={product.slug}
+              href={`/products/${product.slug}`}
+              passHref
+            >
+              <FeaturedProductCard
+                key={product.slug}
+                image={product.image}
+                title={product.title}
+                description={product.description}
+              />
+            </Link>
           ))}
         </div>
       </div>
