@@ -53,7 +53,7 @@ const ProductPage: NextPage<Props> = ({ product }) => {
         brand="Caesar Furnace"
         offers={{
           price: "Contact us",
-          priceCurrency: "USD",
+          priceCurrency: "GHS",
           availability: "InStock",
           url,
         }}
@@ -71,7 +71,6 @@ const ProductPage: NextPage<Props> = ({ product }) => {
           />
         </div>
         <p className="mb-8">{product.description}</p>
-        {/* Add more product-specific details here */}
       </main>
     </>
   );
